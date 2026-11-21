@@ -1,4 +1,6 @@
-Quest X-Ray is a small client-side Fabric mod for QuestCraft and desktop Minecraft.
+#Questxray
+
+Quest X-Ray is a small client-side Fabric mod for QuestCraft and desktop Minecraft made by Bleeeh_39 (Aka Onyx) 
 
 Type /xray in chat to toggle it. When it's on, common filler blocks like stone, dirt, gravel and netherrack stop drawing, and ores and ancient debris are always drawn, so you can spot them while mining.
 
