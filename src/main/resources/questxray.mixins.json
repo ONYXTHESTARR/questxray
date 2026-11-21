@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "dev.xray.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["SodiumOcclusionMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
