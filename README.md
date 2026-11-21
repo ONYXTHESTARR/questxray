@@ -1,20 +1,37 @@
-## Questxray
+## Releases
 
-Quest X-Ray is a small client-side Fabric mod for QuestCraft and desktop Minecraft made by Bleeeh_39 (Aka Onyx) 
+| Version | Minecraft | Loader | Status |
+|---------|-----------|--------|--------|
+| 1.0.0   | 26.2      | Fabric | First release, untested |
 
-Type /xray in chat to toggle it. When it's on, common filler blocks like stone, dirt, gravel and netherrack stop drawing, and ores and ancient debris are always drawn, so you can spot them while mining.
+### Changelog
 
-## ⚠️ Warnings
+**1.0.0**
+- First release.
+- Toggle X-ray with the `/xray` command.
+- Hides common filler blocks (stone, dirt, gravel, sand, netherrack and similar).
+- Always draws ores and ancient debris.
+- Works through Sodium.
 
-- **Singleplayer only.** Don't use this on multiplayer servers unless the rules clearly allow it. Most servers treat X-ray as cheating and will ban you for it. You are responsible for how you use it.
-- **Experimental.** This is a first release and has had very little testing. It may crash, show visual glitches or stop working after a Minecraft or Sodium update.
-- **Back up your world** before using it for the first time.
-- **Minecraft 26.2 only.** It will not work on other versions.
-- **Requires Sodium and Fabric API.** It will not load without both of them.
-- **Performance.** On a Quest headset, rebuilding chunks when you toggle it can cause a short freeze, and it may lower your frame rate.
-- **Toggle by command only.** There is no keybind, so type /xray in chat each time.
-- **No warranty.** Use it at your own risk.
+## Download
 
-This is a fan-made mod and is not affiliated with Mojang or Microsoft.
+- **Modrinth:** https://modrinth.com/mod/questxray (available once it is approved)
+- **Build it yourself:** open the **Actions** tab, tap the newest green run and download the `questxray-jar` artifact.
 
-Source code: see the GitHub link on this page.
+## Install
+
+1. Install Fabric Loader and Fabric API for Minecraft 26.2.
+2. Install Sodium.
+3. Put `questxray-1.0.0.jar` in your `mods` folder, or install it from QuestCraft's Mod Manager.
+4. Start the game, load a singleplayer world and type `/xray`.
+
+## Warnings
+
+- Singleplayer only. Many servers ban X-ray, so check the rules first.
+- Experimental first release with very little testing. It may crash or break after a Minecraft or Sodium update.
+- Back up your world before using it.
+- Minecraft 26.2 only.
+- Requires Sodium and Fabric API.
+- No keybind. Type `/xray` each time.
+- No warranty. Use at your own risk.
+- Fan-made, and not affiliated with Mojang or Microsoft.
