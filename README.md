@@ -1,3 +1,5 @@
+## READ THIS FIRST!: Quest X-Ray is a small client-side Fabric mod for QuestCraft and desktop Minecraft it is poorly made by Bleeeh_39 (Aka Onyx)
+
 ## Releases
 
 | Version | Minecraft | Loader | Status |
