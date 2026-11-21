@@ -1,4 +1,4 @@
-plugins { id 'net.fabricmc.fabric-loom' version "${project.loom_version}" }
+plugins { id 'net.fabricmc.fabric-loom' version "${loom_version}" }
 version = project.mod_version
 group = 'dev.xray'
 base { archivesName = 'questxray' }
